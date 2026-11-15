@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK TIGER | Barber Shop</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2>BLACK <span>TIGER</span></h2>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <ul id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#horarios">Horarios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <p class="subtitle">ESTILO Y PERSONALIDAD</p>
+            <h1>EL ESTILO<br>COMIENZA AQUÍ</h1>
+            <p>Mucho más que un corte, una experiencia.</p>
+            <a href="#servicios" class="btn">VER SERVICIOS</a>
+        </div>
+    </section>
+
+    <section class="section" id="servicios">
+        <h2>NUESTROS SERVICIOS</h2>
+        <p class="description">Calidad y estilo en cada detalle.</p>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Corte clásico</h3>
+                <p>Un estilo elegante y tradicional.</p>
+                <strong>Bs 25</strong>
+            </article>
+
+            <article class="card">
+                <h3>Fade moderno</h3>
+                <p>Degradados y estilos actuales.</p>
+                <strong>Bs 35</strong>
+            </article>
+
+            <article class="card">
+                <h3>Arreglo de barba</h3>
+                <p>Perfilado y cuidado personal.</p>
+                <strong>Bs 20</strong>
+            </article>
+        </div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+        <h2>NUESTROS ESTILOS</h2>
+
+        <div class="photos">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=700" alt="Interior de barbería">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=700" alt="Trabajo de barbería">
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=700" alt="Corte de cabello">
+        </div>
+    </section>
+
+    <section class="section" id="horarios">
+        <h2>NUESTROS HORARIOS</h2>
+        <div class="schedule">
+            <p>Lunes a viernes: 09:00 - 20:00</p>
+            <p>Sábados: 09:00 - 18:00</p>
+            <p>Domingos: Cerrado</p>
+        </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+        <h2>CONTÁCTANOS</h2>
+        <p>¿Listo para renovar tu estilo?</p>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn">ENVIAR</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 BLACK TIGER BARBER SHOP</p>
+        <p>Proyecto educativo ficticio.</p>
+    </footer>
+
+    <script src="1.js"></script>
+</body>
+</html>
